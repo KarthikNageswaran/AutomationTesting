@@ -18,7 +18,7 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 public class QualitativeFactor {
-	Xls_Reader reader=new Xls_Reader("E:\\Sele Framework\\AutomationTesting\\TestData\\QualitativeFactor.xlsx");
+	Xls_Reader reader=new Xls_Reader("D:\\AutomationTesting\\TestData\\QualitativeFactor.xlsx");
 	String testName="QualitativeFactor";
 	ExtentReports ex;
 	ExtentTest test;

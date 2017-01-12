@@ -42,7 +42,7 @@ public class GenericKeywords {
 	public GenericKeywords(ExtentTest test) throws IOException{
 		this.test=test;
 		prop=new Properties();
-		FileInputStream fs=new FileInputStream("E:\\Sele Framework\\AutomationTesting\\src\\test\\resources\\Project.properties");
+		FileInputStream fs=new FileInputStream("D:\\AutomationTesting\\src\\test\\resources\\Project.properties");
 		prop.load(fs);
 	}
 	
